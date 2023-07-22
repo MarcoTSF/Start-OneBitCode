@@ -21,7 +21,7 @@
                 </label>
 
                 <p>
-                    R$ <input type="number" placeholder="100,00" name="bill" class="formInput">
+                    R$ <input type="number" placeholder="100,00" name="bill" id="bill" class="formInput" required>
                 </p>
 
                 <label for="serviceQual">
@@ -44,16 +44,17 @@
                 </label>
 
                 <p>
-                    <input type="number" placeholder="1" name="people" id="people" class="formInput"> pessoa(s)
+                    <input type="number" placeholder="1" name="people" id="people" class="formInput" required> pessoa(s)
                 </p>
 
                 <button type="submit" class="formSubmit">Calcular</button>
             </form>
-        </div>
-        <div id="totalTip">
-            Gorjeta total:
-            R$<span id="tip">0,00</span>
-            <p id="each">cada</p>
+
+            <div id="totalTip">
+                Gorjeta total:
+                R$<span id="tip">0,00</span>
+                <p id="each">(cada)</p>
+            </div>
         </div>
         <script src="./src/js/script.js"></script>
     </body>

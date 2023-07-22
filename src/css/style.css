@@ -89,3 +89,17 @@ input[type=number] {
     font-size: 17px;
     color: white;
 }
+
+#totalTip {
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#each {
+    margin: 0 auto;
+    width: 170px;
+    text-align: end;
+    color: gray;
+    font-size: 16px;
+}
